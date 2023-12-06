@@ -1,70 +1,277 @@
 [
 	{
 		"data": {
-			"id": "8.0.mysql_aurora.3.01.1",
+			"id": "8.0.mysql_aurora.3.03.2",
 			"blueGreen": true
 		}
 	},
 	{
 		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.02.2",
-			"source": "8.0.mysql_aurora.3.01.1",
-			"target": "8.0.mysql_aurora.3.02.2"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.02.3",
-			"source": "8.0.mysql_aurora.3.01.1",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.03.1",
-			"source": "8.0.mysql_aurora.3.01.1",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.03.2",
-			"source": "8.0.mysql_aurora.3.01.1",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.04.0",
-			"source": "8.0.mysql_aurora.3.01.1",
+			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.04.0",
+			"source": "8.0.mysql_aurora.3.03.2",
 			"target": "8.0.mysql_aurora.3.04.0"
 		}
 	},
 	{
 		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.04.1",
-			"source": "8.0.mysql_aurora.3.01.1",
+			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.04.1",
+			"source": "8.0.mysql_aurora.3.03.2",
 			"target": "8.0.mysql_aurora.3.04.1"
 		}
 	},
 	{
 		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.05.0",
-			"source": "8.0.mysql_aurora.3.01.1",
+			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.05.0",
+			"source": "8.0.mysql_aurora.3.03.2",
 			"target": "8.0.mysql_aurora.3.05.0"
 		}
 	},
 	{
 		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.05.0.1",
-			"source": "8.0.mysql_aurora.3.01.1",
+			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.05.0.1",
+			"source": "8.0.mysql_aurora.3.03.2",
 			"target": "8.0.mysql_aurora.3.05.0.1"
 		}
 	},
 	{
 		"data": {
-			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.01.1",
+			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.03.2",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-5.7.mysql_aurora.2.12.0.1",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "5.7.mysql_aurora.2.12.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.02.3",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.03.1",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.03.2",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.04.0",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.04.1",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.05.0",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.05.0.1",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.05.1",
+			"source": "5.7.mysql_aurora.2.12.0",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.11.2",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "5.7.mysql_aurora.2.11.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.11.3",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "5.7.mysql_aurora.2.11.3"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.11.4",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "5.7.mysql_aurora.2.11.4"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.12.0",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "5.7.mysql_aurora.2.12.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.12.0.1",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "5.7.mysql_aurora.2.12.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.02.2",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.02.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.02.3",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.03.1",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.03.2",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.04.0",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.04.1",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.05.0",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.05.0.1",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.05.1",
+			"source": "5.7.mysql_aurora.2.11.1",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.02.3",
+			"source": "8.0.mysql_aurora.3.02.2",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.03.1",
+			"source": "8.0.mysql_aurora.3.02.2",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.03.2",
+			"source": "8.0.mysql_aurora.3.02.2",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.04.0",
+			"source": "8.0.mysql_aurora.3.02.2",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.04.1",
+			"source": "8.0.mysql_aurora.3.02.2",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.05.0",
+			"source": "8.0.mysql_aurora.3.02.2",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.05.0.1",
+			"source": "8.0.mysql_aurora.3.02.2",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.02.2",
 			"target": "8.0.mysql_aurora.3.05.1"
 		}
 	},
@@ -134,6 +341,466 @@
 		"data": {
 			"id": "8.0.mysql_aurora.3.02.1-8.0.mysql_aurora.3.05.1",
 			"source": "8.0.mysql_aurora.3.02.1",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.07.9",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.07.10",
+			"source": "5.7.mysql_aurora.2.07.9",
+			"target": "5.7.mysql_aurora.2.07.10"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.11.2",
+			"source": "5.7.mysql_aurora.2.07.9",
+			"target": "5.7.mysql_aurora.2.11.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.11.3",
+			"source": "5.7.mysql_aurora.2.07.9",
+			"target": "5.7.mysql_aurora.2.11.3"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.11.4",
+			"source": "5.7.mysql_aurora.2.07.9",
+			"target": "5.7.mysql_aurora.2.11.4"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.12.0",
+			"source": "5.7.mysql_aurora.2.07.9",
+			"target": "5.7.mysql_aurora.2.12.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.12.0.1",
+			"source": "5.7.mysql_aurora.2.07.9",
+			"target": "5.7.mysql_aurora.2.12.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.02.2",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.02.2"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.02.3",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.03.1",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.03.2",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.04.0",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.04.1",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.05.0",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.05.0.1",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.01.0",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.05.0.1",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.05.0.1-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.05.0.1",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.05.1",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.05.0",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.05.0-8.0.mysql_aurora.3.05.0.1",
+			"source": "8.0.mysql_aurora.3.05.0",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.05.0-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.05.0",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-5.7.mysql_aurora.2.11.4",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "5.7.mysql_aurora.2.11.4"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-5.7.mysql_aurora.2.12.0",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "5.7.mysql_aurora.2.12.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-5.7.mysql_aurora.2.12.0.1",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "5.7.mysql_aurora.2.12.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.02.2",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.02.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.02.3",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.03.1",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.03.2",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.04.0",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.04.1",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.05.0",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.05.0.1",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.05.1",
+			"source": "5.7.mysql_aurora.2.11.3",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-5.7.mysql_aurora.2.12.0",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "5.7.mysql_aurora.2.12.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-5.7.mysql_aurora.2.12.0.1",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "5.7.mysql_aurora.2.12.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.02.2",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.02.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.02.3",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.03.1",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.03.2",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.04.0",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.04.1",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.05.0",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.05.0.1",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.05.1",
+			"source": "5.7.mysql_aurora.2.11.4",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.02.3",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.03.1",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.03.2",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.04.0",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.04.1",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.05.0",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.05.0.1",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.05.1",
+			"source": "5.7.mysql_aurora.2.12.0.1",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.02.2",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.02.2"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.02.3",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.03.1",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.03.2",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.04.0",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.04.1",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.05.0",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.05.0.1",
+			"source": "8.0.mysql_aurora.3.02.0",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.02.0",
 			"target": "8.0.mysql_aurora.3.05.1"
 		}
 	},
@@ -249,6 +916,40 @@
 	},
 	{
 		"data": {
+			"id": "8.0.mysql_aurora.3.04.0",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.04.1",
+			"source": "8.0.mysql_aurora.3.04.0",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.05.0",
+			"source": "8.0.mysql_aurora.3.04.0",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.05.0.1",
+			"source": "8.0.mysql_aurora.3.04.0",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.04.0",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
 			"id": "5.7.mysql_aurora.2.07.10",
 			"blueGreen": true
 		}
@@ -286,447 +987,6 @@
 			"id": "5.7.mysql_aurora.2.07.10-5.7.mysql_aurora.2.12.0.1",
 			"source": "5.7.mysql_aurora.2.07.10",
 			"target": "5.7.mysql_aurora.2.12.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.11.2",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "5.7.mysql_aurora.2.11.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.11.3",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "5.7.mysql_aurora.2.11.3"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.11.4",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "5.7.mysql_aurora.2.11.4"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.12.0",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "5.7.mysql_aurora.2.12.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-5.7.mysql_aurora.2.12.0.1",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "5.7.mysql_aurora.2.12.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.02.2",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.02.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.02.3",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.03.1",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.03.2",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.04.0",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.04.1",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.05.0",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.05.0.1",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.1-8.0.mysql_aurora.3.05.1",
-			"source": "5.7.mysql_aurora.2.11.1",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-5.7.mysql_aurora.2.12.0",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "5.7.mysql_aurora.2.12.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-5.7.mysql_aurora.2.12.0.1",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "5.7.mysql_aurora.2.12.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.02.2",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.02.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.02.3",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.03.1",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.03.2",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.04.0",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.04.1",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.05.0",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.05.0.1",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.4-8.0.mysql_aurora.3.05.1",
-			"source": "5.7.mysql_aurora.2.11.4",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-5.7.mysql_aurora.2.12.0.1",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "5.7.mysql_aurora.2.12.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.02.3",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.03.1",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.03.2",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.04.0",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.04.1",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.05.0",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.05.0.1",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0-8.0.mysql_aurora.3.05.1",
-			"source": "5.7.mysql_aurora.2.12.0",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.04.0",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.04.1",
-			"source": "8.0.mysql_aurora.3.04.0",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.05.0",
-			"source": "8.0.mysql_aurora.3.04.0",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.05.0.1",
-			"source": "8.0.mysql_aurora.3.04.0",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.04.0-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.04.0",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.05.0",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.05.0-8.0.mysql_aurora.3.05.0.1",
-			"source": "8.0.mysql_aurora.3.05.0",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.05.0-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.05.0",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.02.2",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.02.2"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.02.3",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.03.1",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.03.2",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.04.0",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.04.1",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.05.0",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.05.0.1",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.01.0-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.01.0",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.02.3",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.03.1",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.03.2",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.04.0",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.04.1",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.05.0",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.05.0.1",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.2-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.02.2",
-			"target": "8.0.mysql_aurora.3.05.1"
 		}
 	},
 	{
@@ -774,176 +1034,6 @@
 		"data": {
 			"id": "8.0.mysql_aurora.3.03.1-8.0.mysql_aurora.3.05.1",
 			"source": "8.0.mysql_aurora.3.03.1",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.07.9",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.07.10",
-			"source": "5.7.mysql_aurora.2.07.9",
-			"target": "5.7.mysql_aurora.2.07.10"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.11.2",
-			"source": "5.7.mysql_aurora.2.07.9",
-			"target": "5.7.mysql_aurora.2.11.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.11.3",
-			"source": "5.7.mysql_aurora.2.07.9",
-			"target": "5.7.mysql_aurora.2.11.3"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.11.4",
-			"source": "5.7.mysql_aurora.2.07.9",
-			"target": "5.7.mysql_aurora.2.11.4"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.12.0",
-			"source": "5.7.mysql_aurora.2.07.9",
-			"target": "5.7.mysql_aurora.2.12.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.07.9-5.7.mysql_aurora.2.12.0.1",
-			"source": "5.7.mysql_aurora.2.07.9",
-			"target": "5.7.mysql_aurora.2.12.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.02.3",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.03.1",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.03.2",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.04.0",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.04.1",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.05.0",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.05.0.1",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.12.0.1-8.0.mysql_aurora.3.05.1",
-			"source": "5.7.mysql_aurora.2.12.0.1",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.03.2",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.04.0",
-			"source": "8.0.mysql_aurora.3.03.2",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.04.1",
-			"source": "8.0.mysql_aurora.3.03.2",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.05.0",
-			"source": "8.0.mysql_aurora.3.03.2",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.05.0.1",
-			"source": "8.0.mysql_aurora.3.03.2",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.03.2-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.03.2",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.05.1",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.05.0.1",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.05.0.1-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.05.0.1",
 			"target": "8.0.mysql_aurora.3.05.1"
 		}
 	},
@@ -1046,165 +1136,6 @@
 	},
 	{
 		"data": {
-			"id": "5.7.mysql_aurora.2.11.3",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-5.7.mysql_aurora.2.11.4",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "5.7.mysql_aurora.2.11.4"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-5.7.mysql_aurora.2.12.0",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "5.7.mysql_aurora.2.12.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-5.7.mysql_aurora.2.12.0.1",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "5.7.mysql_aurora.2.12.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.02.2",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.02.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.02.3",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.03.1",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.03.2",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.04.0",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.04.1",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.05.0",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.05.0.1",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "5.7.mysql_aurora.2.11.3-8.0.mysql_aurora.3.05.1",
-			"source": "5.7.mysql_aurora.2.11.3",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0",
-			"blueGreen": true
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.02.2",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.02.2"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.02.3",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.02.3"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.03.1",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.03.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.03.2",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.03.2"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.04.0",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.04.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.04.1",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.04.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.05.0",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.05.0"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.05.0.1",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.05.0.1"
-		}
-	},
-	{
-		"data": {
-			"id": "8.0.mysql_aurora.3.02.0-8.0.mysql_aurora.3.05.1",
-			"source": "8.0.mysql_aurora.3.02.0",
-			"target": "8.0.mysql_aurora.3.05.1"
-		}
-	},
-	{
-		"data": {
 			"id": "8.0.mysql_aurora.3.04.1",
 			"blueGreen": true
 		}
@@ -1227,6 +1158,75 @@
 		"data": {
 			"id": "8.0.mysql_aurora.3.04.1-8.0.mysql_aurora.3.05.1",
 			"source": "8.0.mysql_aurora.3.04.1",
+			"target": "8.0.mysql_aurora.3.05.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1",
+			"blueGreen": true
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.02.2",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.02.2"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.02.3",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.02.3"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.03.1",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.03.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.03.2",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.03.2"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.04.0",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.04.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.04.1",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.04.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.05.0",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.05.0"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.05.0.1",
+			"source": "8.0.mysql_aurora.3.01.1",
+			"target": "8.0.mysql_aurora.3.05.0.1"
+		}
+	},
+	{
+		"data": {
+			"id": "8.0.mysql_aurora.3.01.1-8.0.mysql_aurora.3.05.1",
+			"source": "8.0.mysql_aurora.3.01.1",
 			"target": "8.0.mysql_aurora.3.05.1"
 		}
 	}
