@@ -8,6 +8,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
+	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/rds"
 	rdsTypes "github.com/aws/aws-sdk-go-v2/service/rds/types"
 	"github.com/pkg/errors"
@@ -121,6 +122,7 @@ func NewTree(cli *rds.Client) (*Tree, error) {
 	}
 	for _, engine := range Engines {
 		tree.EngineVersions[engine] = make(map[string]EngineVersion)
+		buffer := make(map[string]EngineVersion)
 		var marker string
 
 	inner:
@@ -139,7 +141,8 @@ func NewTree(cli *rds.Client) (*Tree, error) {
 				if err != nil {
 					return nil, errors.Wrap(err, "failed to create leaf")
 				}
-				tree.EngineVersions[engine][*v.EngineVersion] = EngineVersion{
+
+				buffer[*v.EngineVersion] = EngineVersion{
 					BlueGreenSupported: IsBlueGreenDeploymentSupported(engine, *v.EngineVersion),
 					UpgradeTargets:     targets,
 				}
@@ -149,7 +152,24 @@ func NewTree(cli *rds.Client) (*Tree, error) {
 				break inner
 			}
 		}
+
+		// API provides upgrade targets that are not available, this loop sanitizes this
+		// so there will be no blackhole links
+		for version, obj := range buffer {
+			targets := make([]string, 0)
+			for _, target := range obj.UpgradeTargets {
+				if _, ok := buffer[target]; ok {
+					targets = append(targets, target)
+				}
+			}
+
+			tree.EngineVersions[engine][version] = EngineVersion{
+				BlueGreenSupported: obj.BlueGreenSupported,
+				UpgradeTargets:     targets,
+			}
+		}
 	}
+
 	return &tree, nil
 }
 
@@ -200,8 +220,13 @@ func main() {
 	log.Info("started")
 	ctx := context.Background()
 
-	// TODO: change to Access Key
-	cfg, err := config.LoadDefaultConfig(ctx, config.WithSharedConfigProfile("XXX"))
+	cfg, err := config.LoadDefaultConfig(ctx, config.WithCredentialsProvider(
+		credentials.NewStaticCredentialsProvider(
+			os.Getenv("AWS_ACCESS_KEY_ID"),
+			os.Getenv("AWS_SECRET_ACCESS_KEY"),
+			"",
+		),
+	))
 	if err != nil {
 		log.Fatal(errors.Wrap(err, "error loading aws config"))
 	}

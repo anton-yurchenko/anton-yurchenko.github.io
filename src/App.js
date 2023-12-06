@@ -58,7 +58,7 @@ function App () {
                   <button onClick={() => handleRDSUpgradePaths('/aws/rds-upgrade-paths/mariadb.json')}>
                     MariaDB
                   </button>
-                  <button onClick={() => handleRDSUpgradePaths('/aws/rds-upgrade-paths/aurora-postgres.json')}>
+                  <button onClick={() => handleRDSUpgradePaths('/aws/rds-upgrade-paths/aurora-postgresql.json')}>
                     Aurora PostgreSQL
                   </button>
                   <button onClick={() => handleRDSUpgradePaths('/aws/rds-upgrade-paths/aurora-mysql.json')}>
