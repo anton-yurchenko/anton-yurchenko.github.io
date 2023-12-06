@@ -8,7 +8,7 @@ const GraphChart = ({ filename }) => {
                 const response = await fetch(filename);
                 const elements = await response.json();
 
-                const cy = cytoscape({
+                cytoscape({
                     container: document.getElementById('cy'),
                     elements,
                     style: [
