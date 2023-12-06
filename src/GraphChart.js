@@ -53,7 +53,6 @@ const GraphChart = ({ filename }) => {
                     },
                 });
 
-                cy.randomize();
             } catch (error) {
                 console.error('Error fetching JSON data:', error);
             }

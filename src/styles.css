@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+.home-view {
+    padding: 20px;
+}
+
 header,
 footer {
     background-color: #007CFF;
@@ -28,32 +32,23 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
+    /* Add margin-top for spacing */
+    width: 100%;
+    /* Ensure the nav takes the full width */
+    text-align: center;
+    /* Center the content inside the nav */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
 nav li {
-    margin-bottom: 20px;
-}
-
-.group {
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #007CFF;
-    /* Add a border around the group */
-    padding: 10px;
-    /* Add padding inside the border */
-}
-
-.group h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-    color: #007CFF;
-    /* Set the title color */
+    margin-right: 10px;
+    /* Adjust margin to create space between buttons */
 }
 
 button {
@@ -62,10 +57,11 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    /* Center buttons horizontally */
-    margin-bottom: 5px;
+}
+
+button:not(:last-child) {
+    margin-right: 10px;
+    /* Add margin-right to create space between buttons */
 }
 
 button:hover {
