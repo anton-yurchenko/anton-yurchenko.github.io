@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,
+footer {
+    background-color: #007CFF;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 20px;
+}
+
+.group {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #007CFF;
+    /* Add a border around the group */
+    padding: 10px;
+    /* Add padding inside the border */
+}
+
+.group h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #007CFF;
+    /* Set the title color */
+}
+
+button {
+    padding: 10px;
+    background-color: #007CFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    /* Center buttons horizontally */
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: #D32F2F;
+}
+
+.chart-view {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+#cy {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding-top: 3px;
+    background-color: #007CFF;
+    color: white;
+}
+
+footer button {
+    background-color: #6D6D6D;
+    padding: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #D32F2F;
+}
